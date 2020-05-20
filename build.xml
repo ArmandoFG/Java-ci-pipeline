@@ -21,12 +21,7 @@
         basedir = "${build.dir}/classes"/>
     </target>
     
-    <dependency>
-    <groupId>junit</groupId>     <!-- NOT org.junit here -->
-    <artifactId>junit-dep</artifactId>
-     <version>4.11</version>
-     <scope>test</scope>
-|   </dependency>
+   
     <!--
 
     There exist several targets which are by default empty and which can be 
