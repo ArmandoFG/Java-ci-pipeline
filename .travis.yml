@@ -1,4 +1,5 @@
 dist: xenial
+install: ant deps
 language: java
 sudo: false # faster builds
 jdk:
