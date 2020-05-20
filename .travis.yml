@@ -1,11 +1,2 @@
-dist: xenial
-
 language: java
-sudo: false # faster builds
-jdk:
-  - openjdk8
-addons:
-  apt:
-    packages:
-      - ant
-ant test
+install: ant deps
