@@ -10,12 +10,14 @@
 <project name="Calculadora" default="default" basedir=".">
     <description>Builds, tests, and runs the project Calculadora.</description>
     <import file="nbproject/build-impl.xml"/>
-    <dependency>
-      <groupId>junit</groupId>
-      <artifactId>junit</artifactId>
-      <version>4.11</version>
-      <scope>Calculadora</scope>
-    </dependency>
+    <dependencies>
+    <!-- Other dependencies-->
+        <dependency>
+            <groupId>junit</groupId>
+            <artifactId>junit</artifactId>
+            <version>4.11</version>
+        </dependency>
+    </dependencies>
     <!--
 
     There exist several targets which are by default empty and which can be 
