@@ -8,3 +8,4 @@ addons:
   apt:
     packages:
       - ant
+ant test
