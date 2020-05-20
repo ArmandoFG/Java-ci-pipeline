@@ -4,6 +4,7 @@ jdk:
   - openjdk8
 
 install: ant deps
+sudo: false
 
 
 
