@@ -13,7 +13,7 @@
 
     <target name = "deps">
     <jar destfile = "${web.dir}/lib/util.jar"
-        basedir = "${build.dir}/classes/calculadora"/>
+        basedir = "build/classes/calculadora"/>
     </target>
     
    
