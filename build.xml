@@ -11,8 +11,7 @@
     <description>Builds, tests, and runs the project Calculadora.</description>
     <import file="nbproject/build-impl.xml"/>
 
-
-    <target name = "Armar jar">
+    <target name = "deps">
     <jar destfile = "${web.dir}/lib/util.jar"
         basedir = "${build.dir}/classes"/>
     </target>
